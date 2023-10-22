@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran Film</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DAFTAR FILM TERBARU 2023</h1>
+        <img src="logo.jpg" alt="Logo" width="250px" height="250px">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Halaman Utama</a></li>
+            <li><a href="form.html">Form Pendaftaran</a></li>
+            <li><a href="tabel.html">Daftar Film</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h2>Form Pendaftaran Film</h2>
+        <form action="tabel.html" method="get" class="form">
+            <label for="judul">Judul Film:</label>
+            <input type="text" id="judul" name="judul" required><br>
+
+            <label for="tahun">Tahun Rilis:</label>
+            <input type="number" id="tahun" name="tahun" required><br>
+
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" required><br>
+
+            <label for="deskripsi">Deskripsi:</label>
+            <textarea id="deskripsi" name="deskripsi" required></textarea><br>
+
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+    <footer>
+        &copy; Hak Cipta 2023 - powered by Edinta Bahagia
+    </footer>
+</body>
+</html>
